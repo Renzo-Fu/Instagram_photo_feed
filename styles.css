@@ -1,0 +1,104 @@
+/* styles.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.container {
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.header {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 10px 20px;; 
+    background: #ffffff; 
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.header-content {
+    background: #ffffff;
+    margin: 0px 175px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.photo-post {
+    background: #ffffff;
+    margin: 0px auto;
+    margin-bottom: 60px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    position: relative;
+}
+
+.photo-title {
+    top: 10px; 
+    left: 20px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold; 
+    font-size: 18px;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.photo-date {
+    position: absolute; 
+    top: 10px; 
+    right: 20px; 
+    margin-top: 9px;
+    font-size: 15px;
+    color: #666;
+    opacity: 0.5;
+}
+
+.photo-image {
+    display: block;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+
+}
+
+.photo-comment {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    padding-top: 7px; 
+    padding-right: 15px; 
+    padding-bottom: 7px; 
+    padding-left: 15px;
+
+}
+
+.hash-tag {
+    color: #101010;
+    text-decoration: none;
+    font-weight: bold; 
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
