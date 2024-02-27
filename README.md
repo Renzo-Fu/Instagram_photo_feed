@@ -1,12 +1,20 @@
-# HTML Hello
+# Breathe Code Photo Feed
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+This repository contains the source code for the Breathe Code Photo Feed, a simple web application designed to showcase a collection of photographs.
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
-
-## What to do next?
-
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+## Project Structure
+/project_root
+- styles.css
+- index.html
+- server.py
+/images
+  - puppy1.png
+  - puppy2.png
+  - puppy3.png
+  - puppy4.png
+- README.md
+- README.cn.md
+- README.es.md
 
 ```bash
 $ pip3 install flask && python3 server.py
@@ -21,6 +29,10 @@ $ pip3 install flask && python3 server.py
   <link rel="stylesheet" type="text/css" href="styles.css">
   ...
 </head>
+```
+In this structure, you would save your images in the /images folder. Then, when you reference these images in your HTML, you would use a path relative to your HTML file. For instance:
+```html
+<img src="/images/photo1.jpg" alt="Description of Photo">
 ```
 
 ### Contributors
